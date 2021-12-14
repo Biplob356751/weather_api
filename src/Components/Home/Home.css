@@ -1,0 +1,54 @@
+.home_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.home{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px 1px #a09e9e;
+    cursor: pointer;
+}
+.found_data{
+    text-align: center;
+    color: indianred;
+    font-size: 17px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.search_input input{
+    display: block;
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #444444;
+    border-radius: 4px;
+    color: #000;
+    font-size: 16px;
+}
+.search_input input:focus{
+    outline: none;
+}
+.weather_info{
+    margin-top: 30px;
+    text-align: center;
+}
+.weather_info h1{
+    font-size: 28px;
+    text-transform: capitalize;
+}
+.weather_info h3{
+    margin-top: 20px;
+}
+.weather_info h1 i{
+    color: indianred;
+    margin-right: 5px;
+}
+.weather_info p{
+    margin-top: 10px;
+    color: #444;
+    font-size: 16px;
+    font-weight: bold;
+}
